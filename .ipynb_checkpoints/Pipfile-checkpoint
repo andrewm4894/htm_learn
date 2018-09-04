@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+nupic = "*"
+jupyterlab = "*"
+matplotlib = "*"
+pandas = "==0.20.3"
+simplejson = "==3.11.1"
+pyramid-arima = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "2.7"
